@@ -1,3 +1,20 @@
 * {
   box-sizing: border-box;
 }
+.treehouse-video {
+  margin: 25px 0;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+  main {
+    max-width: 750px;
+    margin: 0 auto;
+  }
+}
