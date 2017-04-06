@@ -4,7 +4,10 @@
 .treehouse-video {
   margin: 25px 0;
 }
-
+.treehouse-captions p {
+  font-size: 16px;
+  line-height: 1.6;
+}
 
 
 
