@@ -13,6 +13,7 @@
 
 .caption-highlight {
   color: #e68a00;
+  font-weight: 600;
 }
 
 @media screen and (min-width: 768px) {
