@@ -1,4 +1,5 @@
 var videoCaptions = document.getElementById('treehouseVideo');
+var captionsContainer = document.querySelector('.treehouse-captions');
 var captions = [
     ['caption1', 0.240, 4.130],
     ['caption2', 4.130, 7.535],
@@ -32,4 +33,14 @@ videoCaptions.addEventListener('timeupdate', function() {
             captionText.className = '';
         }
     });
+});
+
+captionsContainer.addEventListener('click', function() {
+    if (event.target.tagName === 'SPAN') {
+        captions.forEach(function(caption) {
+            if (event.target.id === caption[0]) {
+                videoCaptions.currentTime = caption[1];
+            }
+        });
+    };
 });
