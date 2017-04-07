@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.treehouse-video {
+    margin: 25px 0;
+}
+
+.treehouse-captions p {
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 0 15px;
+}
+
+.caption-highlight {
+    color: #e68a00;
+    font-weight: 600;
+}
+
+
+/*************************
+
+MEDIA ELEMENT CONTROLS
+
+**************************/
+
+.mejs__controls .mejs__time-current, .mejs__controls .mejs__volume-current {
+    background: #34ad58;
+}
+
+
+/*************************
+
+TABLET & DESKTOP MEDIA QUERY
+
+**************************/
+
+@media screen and (min-width: 768px) {
+    main {
+        max-width: 750px;
+        margin: 0 auto;
+    }
+    .treehouse-captions p {
+        font-size: 20px;
+        padding: 0 5px;
+    }
+}

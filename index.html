@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Treehouse Interactive Video Player</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/mediaelement/4.0.2/mediaelementplayer.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <div id="container">
+        <header>
+        </header>
+        <main>
+            <div class="treehouse-video">
+                <video id="treehouseVideo" class="mejs__player" controls="controls" poster="media/video-poster.png">
+                  <source type="video/mp4" src="media/video.mp4" />
+                  <source type="video/ogg" src="media/video.ogg" />
+                </video>
+            </div>
+            <div class="treehouse-captions">
+                <p>
+                    <span id="caption1">Now that we've looked at the architecture of the internet, let's see how you might</span>
+                    <span id="caption2">connect your personal devices to the internet inside your house.</span>
+                    <span id="caption3">Well there are many ways to connect to the internet, and</span>
+                    <span id="caption4">most often people connect wirelessly.</span>
+                </p>
+                <p>
+                    <span id="caption5">Let's look at an example of how you can connect to the internet.</span>
+                    <span id="caption6">If you live in a city or a town, you probably have a coaxial cable for</span>
+                    <span id="caption7">cable Internet, or a phone line if you have DSL, running to the outside of</span>
+                    <span id="caption8">your house, that connects you to the Internet Service Provider, or ISP.</span>
+                    <span id="caption9">If you live far out in the country, you'll more likely have</span>
+                    <span id="caption10">a dish outside your house, connecting you wirelessly to your closest ISP, or</span>
+                    <span id="caption11">you might also use the telephone system.</span>
+                </p>
+                <p>
+                    <span id="caption12">Whether a wire comes straight from the ISP hookup outside your house, or</span>
+                    <span id="caption13">it travels over radio waves from your roof,</span>
+                    <span id="caption14">the first stop a wire will make once inside your house, is at your modem.</span>
+                    <span id="caption15">A modem is what connects the internet to your network at home.</span>
+                    <span id="caption16">A few common residential modems are DSL or</span>
+                </p>
+            </div>
+        </main>
+        <footer>
+        </footer>
+    </div>
+    <!-- container -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/mediaelement/4.0.2/mediaelement-and-player.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
