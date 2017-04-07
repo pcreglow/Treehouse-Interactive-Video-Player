@@ -22,7 +22,10 @@ MEDIA ELEMENT CONTROLS
 
 **************************/
 
-
+.mejs__controls .mejs__time-current,
+.mejs__controls .mejs__volume-current {
+  background: #34ad58;
+}
 
 /*************************
 
