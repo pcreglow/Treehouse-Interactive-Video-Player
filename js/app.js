@@ -42,5 +42,5 @@ captionsContainer.addEventListener('click', function() {
                 videoCaptions.currentTime = caption[1];
             }
         });
-    };
+    }
 });
