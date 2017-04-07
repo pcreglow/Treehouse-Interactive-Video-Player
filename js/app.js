@@ -35,7 +35,7 @@ videoCaptions.addEventListener('timeupdate', function() {
     });
 });
 
-captionsContainer.addEventListener('click', function() {
+captionsContainer.addEventListener('click', function(event) {
     if (event.target.tagName === 'SPAN') {
         captions.forEach(function(caption) {
             if (event.target.id === caption[0]) {
